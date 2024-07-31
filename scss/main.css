@@ -1,0 +1,302 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --background: #fafaf8;
+  --white: #fff;
+  --text-headings: #252525;
+  --text-paragraph: #333;
+  --text-link: #4b4b4b;
+  --card-background: #f5f5f5;
+  --font-family: "Roboto Mono", sans-serif;
+  --second-family: "Outfit", sans-serif;
+}
+
+nav {
+  margin-bottom: 20px;
+}
+nav .nav-container {
+  max-width: 550px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+nav .nav-container .logo img {
+  height: 60px;
+  width: 60px;
+}
+nav .nav-container .icons-language select {
+  height: 30px;
+  border-radius: 3px;
+  border: none;
+}
+nav .nav-container .icons-language select option {
+  border-radius: 0px;
+}
+
+.about {
+  margin-bottom: 50px;
+}
+.about .about-container {
+  max-width: 550px;
+  margin: auto;
+}
+.about .about-container img {
+  border-radius: 100px;
+  width: 175px;
+  height: 175px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-bottom: 30px;
+  filter: grayscale(100%);
+}
+.about .about-container h1 {
+  font-family: var(--second-family);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 120%;
+  letter-spacing: -0.04em;
+  color: var(--text-headings);
+  margin-bottom: 30px;
+}
+.about .about-container p {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 175%;
+  color: var(--text-paragraph);
+  margin-bottom: 30px;
+}
+.about .about-container a {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 175%;
+  color: var(--text-paragraph);
+  text-decoration: none;
+}
+
+.projects {
+  margin-bottom: 50px;
+}
+.projects .projects-container {
+  max-width: 550px;
+  margin: auto;
+}
+.projects .projects-container .projects-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.projects .projects-container .projects-title h1 {
+  font-family: var(--second-family);
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 140%;
+  letter-spacing: -0.02em;
+  color: var(--text-headings);
+}
+.projects .projects-container .projects-title a {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 175%;
+  color: var(--text-paragraph);
+  text-decoration: none;
+}
+.projects .projects-container .projects-card {
+  border-radius: 16px;
+  padding: 16px;
+  width: 536px;
+  height: 138px;
+  background: var(--card-background);
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  margin-bottom: 20px;
+}
+.projects .projects-container .projects-card .project-info h1 {
+  font-family: var(--second-family);
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 140%;
+  color: var(--text-headings);
+  margin-bottom: 10px;
+}
+.projects .projects-container .projects-card .project-info p {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 175%;
+  color: var(--text-paragraph);
+  margin-bottom: 10px;
+}
+.projects .projects-container .projects-card .project-info a {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 175%;
+  color: var(--text-link);
+  text-decoration: none;
+}
+.projects .projects-container .projects-card .project-year {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 175%;
+  color: var(--text-paragraph);
+  border-radius: 8px;
+  padding: 2px 7px 2px 8px;
+  width: 54px;
+  height: 33px;
+  background: var(--background);
+}
+
+.thoughts {
+  margin-bottom: 50px;
+}
+.thoughts .thoughts-container {
+  max-width: 550px;
+  margin: auto;
+}
+.thoughts .thoughts-container .thoughts-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.thoughts .thoughts-container .thoughts-title h1 {
+  font-family: var(--second-family);
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 140%;
+  letter-spacing: -0.02em;
+  color: var(--text-headings);
+}
+.thoughts .thoughts-container .thoughts-title a {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 175%;
+  color: var(--text-paragraph);
+  text-decoration: none;
+}
+.thoughts .thoughts-container .thoughts-card {
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+  border-top: 1px solid var(--text-paragraph);
+  border-bottom: 1px solid var(--text-paragraph);
+  padding: 16px 0px;
+  height: 60px;
+}
+.thoughts .thoughts-container .thoughts-card h1 {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 175%;
+  color: var(--text-paragraph);
+}
+.thoughts .thoughts-container .thoughts-card a {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 175%;
+  color: var(--text-link);
+  text-decoration: none;
+}
+
+.newsletter {
+  margin-bottom: 50px;
+}
+.newsletter .newsletter-container {
+  max-width: 550px;
+  margin: auto;
+}
+.newsletter .newsletter-container .newsletter-card {
+  border-radius: 16px;
+  padding: 16px;
+  width: 536px;
+  height: 201px;
+  margin: auto;
+  background: var(--card-background);
+}
+.newsletter .newsletter-container .newsletter-card h1 {
+  font-family: var(--second-family);
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 140%;
+  letter-spacing: -0.02em;
+  color: var(--text-headings);
+  margin-bottom: 10px;
+}
+.newsletter .newsletter-container .newsletter-card p {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 175%;
+  color: var(--text-paragraph);
+  margin-bottom: 10px;
+}
+.newsletter .newsletter-container .newsletter-card form input {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 175%;
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 396px;
+  height: 44px;
+  outline: none;
+  border: none;
+  color: var(--text-paragraph);
+  background: var(--white);
+}
+.newsletter .newsletter-container .newsletter-card form button {
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 100px;
+  height: 44px;
+  background: var(--text-headings);
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 175%;
+  color: var(--white);
+}
+
+footer .footer-container {
+  max-width: 550px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid var(--text-link);
+  width: 536px;
+  height: 60px;
+}
+footer .footer-container .footer-title h1 {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 233%;
+  color: var(--text-link);
+}
+footer .footer-container .footer-navigation ul {
+  list-style-type: none;
+  display: flex;
+  gap: 15px;
+}
+footer .footer-container .footer-navigation ul li a {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 233%;
+  color: var(--text-link);
+  text-decoration: none;
+}/*# sourceMappingURL=main.css.map */
