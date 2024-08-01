@@ -526,41 +526,41 @@ footer {
 	.thoughts {
 		padding: 20px;
 		margin-bottom: 20px;
-		.thoughts-container{
-			.thoughts-card{
-				h1{
+		.thoughts-container {
+			.thoughts-card {
+				h1 {
 					font-size: 13px;
 				}
 			}
 		}
 	}
-	.newsletter{
+	.newsletter {
 		padding: 20px;
-		.newsletter-container{
-			.newsletter-card{
+		.newsletter-container {
+			.newsletter-card {
 				max-width: 400px;
-				form{
+				form {
 					display: flex;
 					justify-content: center;
 					flex-wrap: wrap;
-					input{
+					input {
 						max-width: 300px;
 						margin-bottom: 15px;
 					}
-					button{
+					button {
 						min-width: 300px;
 					}
 				}
 			}
 		}
 	}
-	
-	footer{
+
+	footer {
 		padding: 20px;
-		.footer-container{
+		.footer-container {
 			display: flex;
 			justify-content: center;
-			.footer-navigation{
+			.footer-navigation {
 				display: none;
 			}
 		}
