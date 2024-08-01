@@ -289,8 +289,8 @@ nav {
 		.projects-card {
 			border-radius: 16px;
 			padding: 16px;
-			width: 536px;
-			height: 138px;
+			max-width: 536px;
+			min-height: 138px;
 			background: var(--card-background);
 			display: flex;
 			justify-content: space-between;
@@ -367,6 +367,7 @@ nav {
 		}
 		.thoughts-card {
 			display: flex;
+			align-items: center;
 			margin: auto;
 			justify-content: space-between;
 			h1 {
@@ -400,8 +401,8 @@ nav {
 		.newsletter-card {
 			border-radius: 16px;
 			padding: 16px;
-			width: 536px;
-			height: 201px;
+			max-width: 536px;
+			min-height: 201px;
 			margin: auto;
 			background: var(--card-background);
 			h1 {
@@ -462,7 +463,7 @@ footer {
 		align-items: center;
 		justify-content: space-between;
 		border-top: 1px solid var(--text-link);
-		width: 536px;
+		max-width: 536px;
 		height: 60px;
 		.footer-title {
 			h1 {
@@ -488,6 +489,79 @@ footer {
 						text-decoration: none;
 					}
 				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 428px) {
+	nav {
+		padding: 20px;
+		.nav-container {
+			.logo {
+				img {
+					height: 60px;
+					width: 70px;
+				}
+			}
+			.icons-language {
+				i {
+					font-size: 30px;
+				}
+				select {
+					text-align: center;
+					font-size: 17px;
+					width: 90px;
+					height: 40px;
+				}
+			}
+		}
+	}
+	.about {
+		padding: 20px;
+	}
+	.projects {
+		padding: 20px;
+	}
+	.thoughts {
+		padding: 20px;
+		margin-bottom: 20px;
+		.thoughts-container{
+			.thoughts-card{
+				h1{
+					font-size: 13px;
+				}
+			}
+		}
+	}
+	.newsletter{
+		padding: 20px;
+		.newsletter-container{
+			.newsletter-card{
+				max-width: 400px;
+				form{
+					display: flex;
+					justify-content: center;
+					flex-wrap: wrap;
+					input{
+						max-width: 300px;
+						margin-bottom: 15px;
+					}
+					button{
+						min-width: 300px;
+					}
+				}
+			}
+		}
+	}
+	
+	footer{
+		padding: 20px;
+		.footer-container{
+			display: flex;
+			justify-content: center;
+			.footer-navigation{
+				display: none;
 			}
 		}
 	}

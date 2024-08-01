@@ -244,8 +244,8 @@ nav .nav-container .icons-language select option {
 .projects .projects-container .projects-card {
   border-radius: 16px;
   padding: 16px;
-  width: 536px;
-  height: 138px;
+  max-width: 536px;
+  min-height: 138px;
   background: var(--card-background);
   display: flex;
   justify-content: space-between;
@@ -320,6 +320,7 @@ nav .nav-container .icons-language select option {
 }
 .thoughts .thoughts-container .thoughts-card {
   display: flex;
+  align-items: center;
   margin: auto;
   justify-content: space-between;
   border-top: 1px solid var(--text-paragraph);
@@ -353,8 +354,8 @@ nav .nav-container .icons-language select option {
 .newsletter .newsletter-container .newsletter-card {
   border-radius: 16px;
   padding: 16px;
-  width: 536px;
-  height: 201px;
+  max-width: 536px;
+  min-height: 201px;
   margin: auto;
   background: var(--card-background);
 }
@@ -410,7 +411,7 @@ footer .footer-container {
   align-items: center;
   justify-content: space-between;
   border-top: 1px solid var(--text-link);
-  width: 536px;
+  max-width: 536px;
   height: 60px;
 }
 footer .footer-container .footer-title h1 {
@@ -432,4 +433,64 @@ footer .footer-container .footer-navigation ul li a {
   line-height: 233%;
   color: var(--text-link);
   text-decoration: none;
+}
+
+@media screen and (max-width: 428px) {
+  nav {
+    padding: 20px;
+  }
+  nav .nav-container .logo img {
+    height: 60px;
+    width: 70px;
+  }
+  nav .nav-container .icons-language i {
+    font-size: 30px;
+  }
+  nav .nav-container .icons-language select {
+    text-align: center;
+    font-size: 17px;
+    width: 90px;
+    height: 40px;
+  }
+  .about {
+    padding: 20px;
+  }
+  .projects {
+    padding: 20px;
+  }
+  .thoughts {
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  .thoughts .thoughts-container .thoughts-card h1 {
+    font-size: 13px;
+  }
+  .newsletter {
+    padding: 20px;
+  }
+  .newsletter .newsletter-container .newsletter-card {
+    max-width: 400px;
+  }
+  .newsletter .newsletter-container .newsletter-card form {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .newsletter .newsletter-container .newsletter-card form input {
+    max-width: 300px;
+    margin-bottom: 15px;
+  }
+  .newsletter .newsletter-container .newsletter-card form button {
+    min-width: 300px;
+  }
+  footer {
+    padding: 20px;
+  }
+  footer .footer-container {
+    display: flex;
+    justify-content: center;
+  }
+  footer .footer-container .footer-navigation {
+    display: none;
+  }
 }/*# sourceMappingURL=main.css.map */
