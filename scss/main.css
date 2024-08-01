@@ -35,6 +35,22 @@ body.dark-theme {
 body.dark-theme nav .nav-container .icons-language i {
   color: var(--white);
 }
+body.dark-theme nav .nav-container .icons-language select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: none;
+  border: 2px solid var(--white);
+  color: var(--white);
+  font-family: var(--font-family);
+  padding: 5px;
+  border-radius: 3px;
+}
+body.dark-theme nav .nav-container .icons-language select option {
+  background: #000;
+  font-family: var(--font-family);
+  font-weight: 500;
+}
 body.dark-theme .about .about-container h1 {
   color: var(--white);
 }
@@ -130,13 +146,28 @@ nav .nav-container .logo img {
   height: 60px;
   width: 60px;
 }
+nav .nav-container .icons-language {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+nav .nav-container .icons-language i {
+  font-size: 20px;
+}
 nav .nav-container .icons-language select {
-  height: 30px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: none;
+  border: 2px solid #000;
+  color: var(--text-headings);
+  font-family: var(--font-family);
+  padding: 5px;
   border-radius: 3px;
-  border: none;
 }
 nav .nav-container .icons-language select option {
-  border-radius: 0px;
+  font-family: var(--font-family);
+  font-weight: 500;
 }
 
 .about {
