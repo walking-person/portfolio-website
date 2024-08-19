@@ -46,4 +46,4 @@ Feel free to fork the repository and submit pull requests with any improvements 
 
 ## Contact
 
-For any questions or feedback, please contact [Mail](mailto:raupovsamir07@gmail.com).
+For any questions or feedback, please contact [Mail]().
