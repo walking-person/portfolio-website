@@ -1,6 +1,6 @@
 {
 	"en": {
-		"aboutTitle": "Hey, I’m Samir Raupov. I'm a fullstack developer & designer based in New York, USA.",
+		"aboutTitle": "Hey, I’m Alexander. I'm a fullstack developer & designer based in New York, USA.",
 		"aboutText": "Right now, I’ve just launched this minimal portfolio template you're viewing (get it here). I'm also working on my own projects, sharing my thoughts on my blog and I document my whole journey on Twitter.",
 		"contactLink": "Get in touch →",
 		"projectsTitle": "Projects",
@@ -19,7 +19,7 @@
 		"buyTemplate": "buy this template →"
 	},
 	"ru": {
-		"aboutTitle": "Привет, я . Я Самир Раупов fullstack разработчик и дизайнер из Нью-Йорка, США.",
+		"aboutTitle": "Привет, я . Я Александр fullstack разработчик и дизайнер из Нью-Йорка, США.",
 		"aboutText": "В данный момент я только что запустил этот минималистичный шаблон портфолио, который вы просматриваете. Я также работаю над собственными проектами, делюсь своими мыслями в блоге и документирую весь свой путь в Twitter.",
 		"contactLink": "Связаться →",
 		"projectsTitle": "Проекты",
@@ -38,7 +38,7 @@
 		"buyTemplate": "купить этот шаблон →"
 	},
 	"uz": {
-		"aboutTitle": "Salom, men Raupov Samir. Men New York, AQShda to'liq stack dasturchi va dizaynerman.",
+		"aboutTitle": "Salom, men Alexander. Men New York, AQShda to'liq stack dasturchi va dizaynerman.",
 		"aboutText": "Hozirda siz ko'rayotgan minimal portfel shablonini ishga tushirdim. Men shuningdek, o'z loyihalarim ustida ishlayapman, blogimda fikrlarimni baham ko'ryapman va Twitterda butun yo'limni hujjatlashtiraman.",
 		"contactLink": "Aloqa →",
 		"projectsTitle": "Loyihalar",
